@@ -1,0 +1,42 @@
+<soap:Envelope xmlns:pub="http://pub.services.dinagua.gub" xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Header>
+      <wsse:Security soap:mustUnderstand="true" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+         <wsu:Timestamp wsu:Id="TS-EF80D0DDAB4264A98C15581097905122">
+            <wsu:Created>2019-05-17T16:16:30.511Z</wsu:Created>
+            <wsu:Expires>2019-05-17T16:17:30.511Z</wsu:Expires>
+         </wsu:Timestamp>
+         <wsse:UsernameToken wsu:Id="UsernameToken-EF80D0DDAB4264A98C15581097796721">
+            <wsse:Username>whos</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">g7mcT%5>T4</wsse:Password>
+            <wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">lZl+Hy8EXMdgIpanScZ5yg==</wsse:Nonce>
+            <wsu:Created>2019-05-17T16:16:19.671Z</wsu:Created>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soap:Header>
+   <soap:Body>
+      <pub:getEstaciones/>
+   </soap:Body>
+</soap:Envelope>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns:ns="http://pub.services.dinagua.gub" xmlns:ax21="http://entities.cargaftp.dinagua.gub/xsd" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:ax22="http://entities.cargaftp.dinagua.gub/xsd">
+	<soap:Header>
+		<wsse:Security soap:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+			<wsu:Timestamp wsu:Id="Timestamp-2019-05-22T15:59:45.063Z">
+				<wsu:Created>2019-05-22T15:59:45.063Z</wsu:Created>
+				<wsu:Expires>2019-05-22T16:09:45Z</wsu:Expires>
+			</wsu:Timestamp>
+			<wsse:UsernameToken wsu:Id="UsernameToken-2019-05-22T15:59:45.063Z">
+				<wsse:Username>whos</wsse:Username>
+				<wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">g7mcT%5>T4</wsse:Password>
+				<wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">gerqY0SrErb2zNSUvRlCZRjZYyU=</wsse:Nonce>
+				<wsu:Created>2019-05-22T15:59:45.063Z</wsu:Created>
+			</wsse:UsernameToken>
+		</wsse:Security>
+	</soap:Header>
+	<soap:Body>
+		<ns:getEstaciones xmlns:ns="http://pub.services.dinagua.gub" xmlns="http://pub.services.dinagua.gub">
+		</ns:getEstaciones>
+	</soap:Body>
+</soap:Envelope>
