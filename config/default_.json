@@ -1,0 +1,15 @@
+{
+	"soapClient" : {
+		"login": {
+			"Endpoint": "https://app.mvotma.gub.uy/dinaguaws/dinaguaws?wsdl",
+			"Username" : "user",
+			"Password": "pass"
+		},
+		"options": {
+			"timeout": 20000, 
+			"connection": "keep-alive", 
+			"rejectUnauthorized": false, 
+			"strictSSL": false
+		}
+	}
+}
