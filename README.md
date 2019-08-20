@@ -1,6 +1,6 @@
 # dinaguawsclient
 
-### RESTfull proxy for Dinaguaws SOAP web service
+### RESTful proxy for Dinaguaws SOAP web service
 
 #### Requires:
 
